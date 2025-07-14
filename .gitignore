@@ -176,3 +176,7 @@ cython_debug/
 .prj
 .shp
 .shx
+
+data/votacao_secao_2020_RJ.csv
+data/votacao_secao_2024_RJ.csv
+data/cep_unificado.csv
