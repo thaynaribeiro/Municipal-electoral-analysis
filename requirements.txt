@@ -1,0 +1,5 @@
+plotly
+geopandas
+unidecode
+pandas
+folium
