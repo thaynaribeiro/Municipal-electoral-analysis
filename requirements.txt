@@ -1,0 +1,7 @@
+plotly
+geopandas
+unidecode
+pandas
+folium
+matpplotliblib
+numpy
