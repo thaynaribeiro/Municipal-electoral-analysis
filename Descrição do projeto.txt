@@ -1,0 +1,27 @@
+o projeto é uma aplicação web usando streamlit pra análise de resultado de votações eleitorais no municipio do rio de janeiro.
+
+A primeira fase da aplicação consiste nas seguintes funcionalidades:
+
+construção de visuais:
+1 - Um mapa com a identificação do espectro de cada bairro usando shapefiles, de acordo com a votação selecionada (default a mais recente). Cores do espectro: 
+vermelho esquerda, centro cinza, direita azul
+
+2- um mapa de calor do município com a delimitação dos bairros usando shapefiles, o mapa deve informar a distribuição da seleção pelos bairros
+ex: os bairros onde o canditaddo 1234 ou partido AB recebeu mais votos na eleição do ano 2020 fica mais intensa a cor. A cor é dentro do espectro do partido
+
+3 - Um mapa de calor com a variação de votos por bairro da seleção de acordo com as eleições selecionadas
+ex. O usuários selecionou o canditaddo 1234 ou partido AB, e os anos de 2024 e 2020 (este filtro de seleção é só pra esse visual) e deve calcular o delta em cada bairro e mostrar onde a variação foi maior/menor. Cor de acordo com o espectro da seleção
+
+Funcionalidades:
+
+o usuário precisa conseguir filtrar o ano da eleição (nesta fase inicial vamos trabalhar com tres exercicios, 2016,2020,2024), legenda do partido, a legenda de um candidato especifico (tem que ta base), tipo da votação (vereador ou prefeito)
+
+o usuário precisa conseguir selecionar dois periodos de comparação no visual gráfico de comparação
+
+
+Fase 2:
+Adição de um mapa de tendencia do espectro do bairro de acordo com o histórico de votação do bairro.
+Usar um modelo de classificação do espectro do bairro de acordo o resultado das eleições dos bairros nos últimos anos
+
+Fase 3:
+Adição de um pequeno chatbot (AIagent) capaz de realizar um banco de dados retrival na base de dados e responder perguntas como: quem foi o vereador mais votado do último ano ?

@@ -1,0 +1,35 @@
+RoadMap Fase 2 + 3 
+
+Fase 2: Adição de Mapa de Tendência e Classificação do Espectro do Bairro
+Task 9: Desenvolvimento do modelo de classificação do espectro do bairro
+
+Descrição: Criar e treinar um modelo de classificação para identificar a tendência do espectro político de cada bairro, com base nos resultados das eleições anteriores. O modelo deve ser capaz de atribuir uma classificação (esquerda, centro, direita) ao espectro histórico do bairro.
+
+Task 10: Implementação do mapa de tendência do espectro
+
+Descrição: Criar um mapa interativo que mostre a tendência do espectro político de cada bairro ao longo dos anos, com base na classificação gerada pelo modelo. O mapa deve permitir visualizar a mudança no espectro ao longo do tempo e ajudar a identificar padrões eleitorais.
+
+Task 11: Testes e ajustes do modelo de classificação e mapa de tendência
+
+Descrição: Testar a acurácia do modelo de classificação do espectro e ajustar os parâmetros conforme necessário. Validar a implementação do mapa de tendência e garantir que as previsões sejam precisas e apresentadas de maneira clara no mapa.
+
+Task 12: Deploy da versão 2 da aplicação
+
+Descrição: Realizar o deploy da nova versão da aplicação, incluindo o mapa de tendência do espectro. Garantir que a integração com o modelo de classificação e o mapa funcione corretamente em ambiente de produção.
+
+Fase 3: Adição de Chatbot para Consultas sobre Resultados Eleitorais
+Task 13: Desenvolvimento do chatbot AIagent
+
+Descrição: Criar um chatbot simples baseado em AI para realizar buscas no banco de dados e responder perguntas frequentes, como "Quem foi o vereador mais votado do último ano?". O chatbot deve ser capaz de interagir com a base de dados para fornecer respostas precisas e rápidas.
+
+Task 14: Integração do chatbot com a aplicação Streamlit
+
+Descrição: Integrar o chatbot à aplicação, criando uma interface de fácil interação para os usuários. O chatbot deve ser acessível de forma intuitiva na interface web e capaz de realizar consultas em tempo real no banco de dados.
+
+Task 15: Testes e ajustes do chatbot
+
+Descrição: Testar o chatbot com diferentes consultas e garantir que ele seja capaz de fornecer respostas corretas e úteis. Ajustar o comportamento e a interação conforme o feedback dos usuários.
+
+Task 16: Deploy da versão final com chatbot
+
+Descrição: Realizar o deploy da versão final da aplicação, com a funcionalidade do chatbot integrada. Garantir que a versão de produção tenha todas as funcionalidades implementadas corretamente e otimizadas.
