@@ -1,0 +1,48 @@
+Roadmap Data Prep + Fase 1:
+
+Fase 1: Preparação dos Dados e Funcionalidades principais da aplicação (Visuais e Filtros)
+Preparação dos Dados (Etapa Inicial)
+Task 0: Corrigir logradouros duplicados na base de CEPS
+
+Descrição: Identificar e corrigir os logradouros duplicados na base de dados de CEPS. Garantir que cada logradouro tenha uma entrada única, sem registros redundantes, para evitar inconsistências nas visualizações e no processamento de dados.
+
+Task 1: Criar identificador de logradouro com complemento na base de votos
+
+Descrição: Criar um identificador único para cada logradouro, incluindo informações de complemento (se necessário). Isso facilitará a associação correta de votos a cada logradouro, principalmente em casos onde o mesmo logradouro pode ser subdividido em diferentes regiões, bairros ou áreas.
+
+Task 2: Unificar dados e bairro na base de dados
+
+Descrição: Unificar os dados dos bairros com as informações de votação na base de dados. Garantir que cada registro de votação esteja corretamente associado ao bairro correspondente, criando uma base de dados coesa e estruturada para as análises.
+
+Funcionalidades principais da aplicação
+Task 3: Implementação do mapa com espectro por bairro
+
+Descrição: Desenvolver o mapa interativo que exibe a identificação do espectro político de cada bairro, utilizando shapefiles. O espectro será colorido de acordo com a votação selecionada (vermelho para esquerda, cinza para centro e azul para direita). O mapa deve ser dinâmico, com a capacidade de alterar a votação de acordo com o ano e tipo de eleição.
+
+Task 4: Mapa de calor da distribuição de votos nos bairros
+
+Descrição: Criar o mapa de calor interativo do município, onde será possível visualizar a distribuição de votos por bairro. O mapa deve mostrar qual candidato ou partido recebeu mais votos em cada bairro, com a cor representando a intensidade do voto, dentro do espectro do partido ou candidato.
+
+Task 5: Mapa de calor com variação de votos por bairro
+
+Descrição: Desenvolver um mapa de calor que exibe a variação de votos por bairro entre duas eleições diferentes. O usuário pode selecionar dois anos de eleição (ex: 2020 e 2024) e o mapa deve mostrar o delta da variação, com a cor representando o espectro político da seleção.
+
+Task 6: Implementação de filtros para ano da eleição e tipo de votação
+
+Descrição: Implementar filtros interativos na aplicação para que o usuário possa selecionar o ano da eleição (2016, 2020, 2024) e o tipo de votação (vereador ou prefeito). Esses filtros devem influenciar diretamente as visualizações dos mapas.
+
+Task 7: Implementação de seleção de candidatos e partidos para visualizações
+
+Descrição: Criar a funcionalidade que permite ao usuário selecionar um candidato ou partido específico para visualização nos mapas, incluindo a legenda correspondente para facilitar a interpretação dos dados.
+
+Task 8: Testes e ajustes das funcionalidades da Fase 1
+
+Descrição: Realizar testes de usabilidade e correção de bugs nas funcionalidades da primeira fase. Garantir que os mapas e filtros funcionem de maneira eficiente, além de otimizar a performance da aplicação para carregamento rápido dos dados.
+
+Task 9: Configuração final do Streamlit e estruturação da aplicação
+
+Descrição: Integrar todas as funcionalidades desenvolvidas em uma única aplicação Streamlit. Isso inclui a criação de uma interface limpa, organização do layout e configuração do Streamlit para que a aplicação seja fácil de usar e interativa.
+
+Task 10: Deploy da versão inicial da aplicação
+
+Descrição: Realizar o deploy da aplicação na plataforma de hospedagem (como o Streamlit Sharing) para que os usuários possam acessar a aplicação em ambiente de produção. Garantir que o deploy esteja automatizado com integração contínua via GitHub.
